@@ -31,7 +31,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.hw=1 \
     debug.composition.type=dyn \
     persist.hwc.mdpcomp.enable=true \
-    debug.mdpcomp.logs=0
+    debug.mdpcomp.logs=0 \
+    ro.telephony.ril_class=SamsungQualcommRIL
 
 # GalaxyS3Settings
 # TODO: Move here
@@ -80,7 +81,8 @@ PRODUCT_PACKAGES += \
     lpm.rc \
     init.qcom.lpm_boot.sh \
     init.qcom.thermal_conf.sh \
-    init.recovery.qcom.rc
+    init.recovery.qcom.rc \
+    init.qcom.ril.sh
 
 # Charger
 PRODUCT_PACKAGES += charger charger_res_images

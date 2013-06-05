@@ -28,6 +28,10 @@ ENABLE_WEBGL := true
 
 # PowerHAL
 TARGET_PROVIDES_POWERHAL := true
+
+# chargers
+BOARD_CHARGER_RES := device/samsung/qcom-common/charger
+
 # Flags
 COMMON_GLOBAL_CFLAGS += -DQCOM_HARDWARE
 
@@ -55,4 +59,4 @@ TARGET_FORCE_CPU_UPLOAD := true
 BOARD_CHARGING_MODE_BOOTING_LPM := /sys/class/power_supply/battery/batt_lp_charging
 BOARD_BATTERY_DEVICE_NAME := "battery"
 
-
+TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/qcom-common
