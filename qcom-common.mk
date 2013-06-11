@@ -31,8 +31,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.hw=1 \
     debug.composition.type=dyn \
     persist.hwc.mdpcomp.enable=true \
-    debug.mdpcomp.logs=0 \
-    ro.telephony.ril_class=SamsungQualcommRIL
+    debug.mdpcomp.logs=0
 
 # GalaxyS3Settings
 # TODO: Move here
